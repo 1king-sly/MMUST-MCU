@@ -1,0 +1,44 @@
+body{
+    background-image: url(food.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-attachment: fixed;
+    text-align: center;
+}
+.header a img{
+    width: 180px;
+    height:180px;
+    position: center;
+    padding-left: 80px;
+    margin-bottom: 0px;
+}
+.header h1{
+    color:orange;
+    padding-left:80px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+.header p{
+    color: orange;
+    padding-left: 80px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: maroon;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: orange;
+    border-radius: 14px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}

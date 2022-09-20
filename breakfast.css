@@ -1,0 +1,52 @@
+body{
+    background-image: url(trial1.jpg);
+    background-size: cover;
+    background-position: relative;
+    background-attachment: fixed;
+    text-align: center;
+}
+.header h1{
+    color:orange;
+    text-align: center;
+    font-family: Arial;
+}
+.header p{
+    color:maroon;
+    text-align: center;
+    font-family: monotype corsiva;
+}
+table{
+    margin-left: 520px;
+    margin-top: 20px;
+    border-color: pink;
+}
+ table th{
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Arial;
+ } 
+ table td{
+    font-family: monotype corsiva;
+    font-size: 18px;
+ } 
+ .footer p{
+    color: orchid;
+    font-family: monotype corsiva;
+ } 
+ button{
+    background-color: transparent;
+    color:maroon;
+    text-decoration: none;
+    border:none;
+    font-size: 20px;
+ }
+.btn:hover{
+    background-color: orange;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 14px;
+
+}
+
+
+
