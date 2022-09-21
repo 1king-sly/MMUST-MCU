@@ -42,3 +42,37 @@ button{
     transition: 0.5s ease;
     cursor: pointer;
 }
+@media (max-width:980px){ 
+.header a img{
+    width:380px;
+    height:380px;
+    position: center;
+    padding-left: 80px;
+    margin-bottom: 20px;
+    }
+.header h1{
+    color:orange;
+    padding-left:50px;
+    padding-bottom:20px;
+    margin-bottom:20px;
+    margin-top: 20px;
+    font-size:76px;   
+}
+.header p{
+    color: orange;
+    padding-left: 80px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 56px;
+    }
+.btn{
+    border: none;
+    background-color: transparent;
+    color: maroon;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    
+}
+}
